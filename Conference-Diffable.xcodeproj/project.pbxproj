@@ -7,50 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		053A00AA22837E6E00C5D56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00A922837E6E00C5D56F /* AppDelegate.swift */; };
-		053A00AC22837E6F00C5D56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 053A00AB22837E6F00C5D56F /* Assets.xcassets */; };
-		053A00D322837ED000C5D56F /* ListWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C322837ED000C5D56F /* ListWindowController.swift */; };
-		053A00D622837ED000C5D56F /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C722837ED000C5D56F /* ListItem.swift */; };
-		053A00D722837ED000C5D56F /* TextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C822837ED000C5D56F /* TextItem.swift */; };
-		053A00D822837ED000C5D56F /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C922837ED000C5D56F /* TitleSupplementaryView.swift */; };
-		053A00E022837EDE00C5D56F /* WiFiNetworkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00DD22837EDE00C5D56F /* WiFiNetworkItem.swift */; };
-		053A00E622837F4800C5D56F /* WIFIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1BB0AA225FA81D003ADF88 /* WIFIController.swift */; };
-		0586E2662297999700594D93 /* InsertionSortWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586E2652297999700594D93 /* InsertionSortWindowController.swift */; };
-		0586E26C22979E5400594D93 /* InsertionSortItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586E26B22979E5400594D93 /* InsertionSortItem.swift */; };
-		0586E2712297A0AC00594D93 /* InsertionSortArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586E2702297A0AC00594D93 /* InsertionSortArray.swift */; };
-		05B367FE22A0D8E800D7A9E0 /* MountainsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B367FC22A0D8E100D7A9E0 /* MountainsRawData.swift */; };
-		05B367FF22A0D8E800D7A9E0 /* MountainsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B367FD22A0D8E800D7A9E0 /* MountainsController.swift */; };
-		05C43D67228A64EC002750F0 /* GridWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C022837ED000C5D56F /* GridWindowController.swift */; };
-		05C43D68228A655C002750F0 /* AdaptiveSectionsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00BE22837ED000C5D56F /* AdaptiveSectionsWindowController.swift */; };
-		05C43D69228A66EA002750F0 /* InsetItemsGridWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C122837ED000C5D56F /* InsetItemsGridWindowController.swift */; };
-		05C43D6A228A6784002750F0 /* TwoColumnWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C522837ED000C5D56F /* TwoColumnWindowController.swift */; };
-		05C43D6B228A67AA002750F0 /* DistinctSectionsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00BF22837ED000C5D56F /* DistinctSectionsWindowController.swift */; };
-		05C43D6C228A6866002750F0 /* NestedGroupsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00B922837ED000C5D56F /* NestedGroupsWindowController.swift */; };
-		05C43D6D228A6949002750F0 /* OrthogonalScrollingWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00BA22837ED000C5D56F /* OrthogonalScrollingWindowController.swift */; };
-		05C43D6E228A6A32002750F0 /* ItemBadgeSupplementaryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C222837ED000C5D56F /* ItemBadgeSupplementaryWindowController.swift */; };
-		05C43D6F228A6D15002750F0 /* SectionHeadersFootersWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00C422837ED000C5D56F /* SectionHeadersFootersWindowController.swift */; };
-		05C43D76228A6FB2002750F0 /* MountainsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00DC22837EDE00C5D56F /* MountainsWindowController.swift */; };
-		05C43D79228A7121002750F0 /* WiFiSettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A00DE22837EDE00C5D56F /* WiFiSettingsWindowController.swift */; };
-		573612CE22A1CDA900671B03 /* TextItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612A622A1CDA800671B03 /* TextItem.xib */; };
-		573612CF22A1CDA900671B03 /* InsertionSortWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612A822A1CDA800671B03 /* InsertionSortWindow.xib */; };
-		573612D022A1CDA900671B03 /* NestedGroupsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612AA22A1CDA800671B03 /* NestedGroupsWindow.xib */; };
-		573612D122A1CDA900671B03 /* OrthogonalScrollingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612AC22A1CDA800671B03 /* OrthogonalScrollingWindow.xib */; };
-		573612D222A1CDA900671B03 /* GridWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612AE22A1CDA800671B03 /* GridWindow.xib */; };
-		573612D322A1CDA900671B03 /* BadgeSupplementaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612B022A1CDA800671B03 /* BadgeSupplementaryView.xib */; };
-		573612D422A1CDA900671B03 /* DistinctSectionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612B222A1CDA800671B03 /* DistinctSectionsWindow.xib */; };
-		573612D522A1CDA900671B03 /* ListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612B422A1CDA800671B03 /* ListWindow.xib */; };
-		573612D622A1CDA900671B03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612B622A1CDA800671B03 /* MainMenu.xib */; };
-		573612D722A1CDA900671B03 /* TitleSupplementaryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612B822A1CDA800671B03 /* TitleSupplementaryView.xib */; };
-		573612D822A1CDA900671B03 /* WiFiSettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612BA22A1CDA800671B03 /* WiFiSettingsWindow.xib */; };
-		573612D922A1CDA900671B03 /* WiFiNetworkItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612BC22A1CDA800671B03 /* WiFiNetworkItem.xib */; };
-		573612DA22A1CDA900671B03 /* InsetItemsGridWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612BE22A1CDA800671B03 /* InsetItemsGridWindow.xib */; };
-		573612DB22A1CDA900671B03 /* InsertionSortItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612C022A1CDA800671B03 /* InsertionSortItem.xib */; };
-		573612DC22A1CDA900671B03 /* ItemBadgeSupplementaryWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612C222A1CDA800671B03 /* ItemBadgeSupplementaryWindow.xib */; };
-		573612DD22A1CDA900671B03 /* AdaptiveSectionsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612C422A1CDA800671B03 /* AdaptiveSectionsWindow.xib */; };
-		573612DE22A1CDA900671B03 /* MountainsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612C622A1CDA800671B03 /* MountainsWindow.xib */; };
-		573612DF22A1CDA900671B03 /* ListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612C822A1CDA800671B03 /* ListItem.xib */; };
-		573612E022A1CDA900671B03 /* SectionHeadersFootersWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612CA22A1CDA800671B03 /* SectionHeadersFootersWindow.xib */; };
-		573612E122A1CDA900671B03 /* TwoColumnWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573612CC22A1CDA900671B03 /* TwoColumnWindow.xib */; };
 		5777C885229910E100AEF7BB /* MountainsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777C884229910E100AEF7BB /* MountainsRawData.swift */; };
 		FD000CBA22F0E68100AE3B95 /* TableViewEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD000CB922F0E68100AE3B95 /* TableViewEditingViewController.swift */; };
 		FD09E6D42276BC250009D23B /* SectionHeadersFootersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09E6D32276BC250009D23B /* SectionHeadersFootersViewController.swift */; };
@@ -94,52 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		053A00A722837E6E00C5D56F /* Conference-Mac-Diffable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conference-Mac-Diffable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		053A00A922837E6E00C5D56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		053A00AB22837E6F00C5D56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		053A00B022837E6F00C5D56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		053A00B122837E6F00C5D56F /* Conference_Mac_Diffable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Conference_Mac_Diffable.entitlements; sourceTree = "<group>"; };
-		053A00B922837ED000C5D56F /* NestedGroupsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NestedGroupsWindowController.swift; sourceTree = "<group>"; };
-		053A00BA22837ED000C5D56F /* OrthogonalScrollingWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollingWindowController.swift; sourceTree = "<group>"; };
-		053A00BE22837ED000C5D56F /* AdaptiveSectionsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveSectionsWindowController.swift; sourceTree = "<group>"; };
-		053A00BF22837ED000C5D56F /* DistinctSectionsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistinctSectionsWindowController.swift; sourceTree = "<group>"; };
-		053A00C022837ED000C5D56F /* GridWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridWindowController.swift; sourceTree = "<group>"; };
-		053A00C122837ED000C5D56F /* InsetItemsGridWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetItemsGridWindowController.swift; sourceTree = "<group>"; };
-		053A00C222837ED000C5D56F /* ItemBadgeSupplementaryWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemBadgeSupplementaryWindowController.swift; sourceTree = "<group>"; };
-		053A00C322837ED000C5D56F /* ListWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListWindowController.swift; sourceTree = "<group>"; };
-		053A00C422837ED000C5D56F /* SectionHeadersFootersWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeadersFootersWindowController.swift; sourceTree = "<group>"; };
-		053A00C522837ED000C5D56F /* TwoColumnWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnWindowController.swift; sourceTree = "<group>"; };
-		053A00C722837ED000C5D56F /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
-		053A00C822837ED000C5D56F /* TextItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextItem.swift; sourceTree = "<group>"; };
-		053A00C922837ED000C5D56F /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
-		053A00DC22837EDE00C5D56F /* MountainsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsWindowController.swift; sourceTree = "<group>"; };
-		053A00DD22837EDE00C5D56F /* WiFiNetworkItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiNetworkItem.swift; sourceTree = "<group>"; };
-		053A00DE22837EDE00C5D56F /* WiFiSettingsWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiSettingsWindowController.swift; sourceTree = "<group>"; };
-		0586E2652297999700594D93 /* InsertionSortWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortWindowController.swift; sourceTree = "<group>"; };
-		0586E26B22979E5400594D93 /* InsertionSortItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortItem.swift; sourceTree = "<group>"; };
-		0586E2702297A0AC00594D93 /* InsertionSortArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertionSortArray.swift; sourceTree = "<group>"; };
-		05B367FC22A0D8E100D7A9E0 /* MountainsRawData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsRawData.swift; sourceTree = "<group>"; };
-		05B367FD22A0D8E800D7A9E0 /* MountainsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsController.swift; sourceTree = "<group>"; };
-		573612A722A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/TextItem.xib"; sourceTree = SOURCE_ROOT; };
-		573612A922A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/InsertionSortWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612AB22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/NestedGroupsWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612AD22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/OrthogonalScrollingWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612AF22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/GridWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612B122A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/BadgeSupplementaryView.xib"; sourceTree = SOURCE_ROOT; };
-		573612B322A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/DistinctSectionsWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612B522A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/ListWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612B722A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/MainMenu.xib"; sourceTree = SOURCE_ROOT; };
-		573612B922A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/TitleSupplementaryView.xib"; sourceTree = SOURCE_ROOT; };
-		573612BB22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/WiFiSettingsWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612BD22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/WiFiNetworkItem.xib"; sourceTree = SOURCE_ROOT; };
-		573612BF22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/InsetItemsGridWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612C122A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/InsertionSortItem.xib"; sourceTree = SOURCE_ROOT; };
-		573612C322A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/ItemBadgeSupplementaryWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612C522A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/AdaptiveSectionsWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612C722A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/MountainsWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612C922A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/ListItem.xib"; sourceTree = SOURCE_ROOT; };
-		573612CB22A1CDA800671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/SectionHeadersFootersWindow.xib"; sourceTree = SOURCE_ROOT; };
-		573612CD22A1CDA900671B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Conference-Mac-Diffable/Base.lproj/TwoColumnWindow.xib"; sourceTree = SOURCE_ROOT; };
+		0726A03124295C5200E3727C /* Conference-Diffable.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Conference-Diffable.entitlements"; sourceTree = "<group>"; };
 		5777C884229910E100AEF7BB /* MountainsRawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsRawData.swift; sourceTree = "<group>"; };
 		6A98C7F3ECCD0837A587C8A9 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -190,13 +101,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		053A00A422837E6E00C5D56F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FDA8D134225F8531000127E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,106 +111,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		053A00A822837E6E00C5D56F /* Conference-Mac-Diffable */ = {
-			isa = PBXGroup;
-			children = (
-				573612A522A1CD9B00671B03 /* xib Files */,
-				053A00B722837ED000C5D56F /* Compositional Layout */,
-				053A00DA22837EDE00C5D56F /* Diffable */,
-				053A00A922837E6E00C5D56F /* AppDelegate.swift */,
-				053A00AB22837E6F00C5D56F /* Assets.xcassets */,
-				053A00B022837E6F00C5D56F /* Info.plist */,
-				053A00B122837E6F00C5D56F /* Conference_Mac_Diffable.entitlements */,
-			);
-			path = "Conference-Mac-Diffable";
-			sourceTree = "<group>";
-		};
-		053A00B722837ED000C5D56F /* Compositional Layout */ = {
-			isa = PBXGroup;
-			children = (
-				053A00BD22837ED000C5D56F /* Basics Window Controllers */,
-				053A00B822837ED000C5D56F /* Advanced Layouts Window Controllers */,
-				053A00C622837ED000C5D56F /* Items and Supplementary Views */,
-			);
-			path = "Compositional Layout";
-			sourceTree = "<group>";
-		};
-		053A00B822837ED000C5D56F /* Advanced Layouts Window Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				053A00B922837ED000C5D56F /* NestedGroupsWindowController.swift */,
-				053A00BA22837ED000C5D56F /* OrthogonalScrollingWindowController.swift */,
-			);
-			path = "Advanced Layouts Window Controllers";
-			sourceTree = "<group>";
-		};
-		053A00BD22837ED000C5D56F /* Basics Window Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				053A00C322837ED000C5D56F /* ListWindowController.swift */,
-				053A00C022837ED000C5D56F /* GridWindowController.swift */,
-				053A00C122837ED000C5D56F /* InsetItemsGridWindowController.swift */,
-				053A00C522837ED000C5D56F /* TwoColumnWindowController.swift */,
-				053A00BF22837ED000C5D56F /* DistinctSectionsWindowController.swift */,
-				053A00BE22837ED000C5D56F /* AdaptiveSectionsWindowController.swift */,
-				053A00C222837ED000C5D56F /* ItemBadgeSupplementaryWindowController.swift */,
-				053A00C422837ED000C5D56F /* SectionHeadersFootersWindowController.swift */,
-			);
-			path = "Basics Window Controllers";
-			sourceTree = "<group>";
-		};
-		053A00C622837ED000C5D56F /* Items and Supplementary Views */ = {
-			isa = PBXGroup;
-			children = (
-				053A00C722837ED000C5D56F /* ListItem.swift */,
-				053A00C822837ED000C5D56F /* TextItem.swift */,
-				053A00C922837ED000C5D56F /* TitleSupplementaryView.swift */,
-			);
-			path = "Items and Supplementary Views";
-			sourceTree = "<group>";
-		};
-		053A00DA22837EDE00C5D56F /* Diffable */ = {
-			isa = PBXGroup;
-			children = (
-				05B367FD22A0D8E800D7A9E0 /* MountainsController.swift */,
-				05B367FC22A0D8E100D7A9E0 /* MountainsRawData.swift */,
-				053A00DC22837EDE00C5D56F /* MountainsWindowController.swift */,
-				0586E2702297A0AC00594D93 /* InsertionSortArray.swift */,
-				0586E2652297999700594D93 /* InsertionSortWindowController.swift */,
-				0586E26B22979E5400594D93 /* InsertionSortItem.swift */,
-				053A00DD22837EDE00C5D56F /* WiFiNetworkItem.swift */,
-				053A00DE22837EDE00C5D56F /* WiFiSettingsWindowController.swift */,
-			);
-			path = Diffable;
-			sourceTree = "<group>";
-		};
-		573612A522A1CD9B00671B03 /* xib Files */ = {
-			isa = PBXGroup;
-			children = (
-				573612C422A1CDA800671B03 /* AdaptiveSectionsWindow.xib */,
-				573612B022A1CDA800671B03 /* BadgeSupplementaryView.xib */,
-				573612B222A1CDA800671B03 /* DistinctSectionsWindow.xib */,
-				573612AE22A1CDA800671B03 /* GridWindow.xib */,
-				573612C022A1CDA800671B03 /* InsertionSortItem.xib */,
-				573612A822A1CDA800671B03 /* InsertionSortWindow.xib */,
-				573612BE22A1CDA800671B03 /* InsetItemsGridWindow.xib */,
-				573612C222A1CDA800671B03 /* ItemBadgeSupplementaryWindow.xib */,
-				573612C822A1CDA800671B03 /* ListItem.xib */,
-				573612B422A1CDA800671B03 /* ListWindow.xib */,
-				573612B622A1CDA800671B03 /* MainMenu.xib */,
-				573612C622A1CDA800671B03 /* MountainsWindow.xib */,
-				573612AA22A1CDA800671B03 /* NestedGroupsWindow.xib */,
-				573612AC22A1CDA800671B03 /* OrthogonalScrollingWindow.xib */,
-				573612CA22A1CDA800671B03 /* SectionHeadersFootersWindow.xib */,
-				573612A622A1CDA800671B03 /* TextItem.xib */,
-				573612B822A1CDA800671B03 /* TitleSupplementaryView.xib */,
-				573612CC22A1CDA900671B03 /* TwoColumnWindow.xib */,
-				573612BC22A1CDA800671B03 /* WiFiNetworkItem.xib */,
-				573612BA22A1CDA800671B03 /* WiFiSettingsWindow.xib */,
-			);
-			path = "xib Files";
-			sourceTree = "<group>";
-		};
 		A66BDDF27C93278D1A8E28FD /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,7 +236,6 @@
 			children = (
 				FD579749228A2AB500801CBA /* README.md */,
 				FDA8D139225F8531000127E1 /* Conference-Diffable */,
-				053A00A822837E6E00C5D56F /* Conference-Mac-Diffable */,
 				FDA8D138225F8531000127E1 /* Products */,
 				FD9671C52268F1FC00301EBB /* Frameworks */,
 				F2B96841076005355F12B286 /* Configuration */,
@@ -444,7 +247,6 @@
 			isa = PBXGroup;
 			children = (
 				FDA8D137225F8531000127E1 /* Conference-Diffable.app */,
-				053A00A722837E6E00C5D56F /* Conference-Mac-Diffable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -454,6 +256,7 @@
 			children = (
 				FD65E17D227636F600F8AF46 /* Compositional Layout */,
 				FD65E17C227636F000F8AF46 /* Diffable */,
+				0726A03124295C5200E3727C /* Conference-Diffable.entitlements */,
 				FDA8D13C225F8531000127E1 /* OutlineViewController.swift */,
 				FD1BB0A6225F9257003ADF88 /* OutlineItemCell.swift */,
 				FDA8D13E225F8531000127E1 /* Main.storyboard */,
@@ -469,23 +272,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		053A00A622837E6E00C5D56F /* Conference-Mac-Diffable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 053A00B422837E6F00C5D56F /* Build configuration list for PBXNativeTarget "Conference-Mac-Diffable" */;
-			buildPhases = (
-				053A00A322837E6E00C5D56F /* Sources */,
-				053A00A422837E6E00C5D56F /* Frameworks */,
-				053A00A522837E6E00C5D56F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Conference-Mac-Diffable";
-			productName = "WWDC-Mac-Diffable";
-			productReference = 053A00A722837E6E00C5D56F /* Conference-Mac-Diffable.app */;
-			productType = "com.apple.product-type.application";
-		};
 		FDA8D136225F8531000127E1 /* Conference-Diffable */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDA8D15F225F8533000127E1 /* Build configuration list for PBXNativeTarget "Conference-Diffable" */;
@@ -514,9 +300,6 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					053A00A622837E6E00C5D56F = {
-						CreatedOnToolsVersion = 11.0;
-					};
 					FDA8D136225F8531000127E1 = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -536,40 +319,11 @@
 			projectRoot = "";
 			targets = (
 				FDA8D136225F8531000127E1 /* Conference-Diffable */,
-				053A00A622837E6E00C5D56F /* Conference-Mac-Diffable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		053A00A522837E6E00C5D56F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				573612D322A1CDA900671B03 /* BadgeSupplementaryView.xib in Resources */,
-				573612D622A1CDA900671B03 /* MainMenu.xib in Resources */,
-				573612DB22A1CDA900671B03 /* InsertionSortItem.xib in Resources */,
-				573612DD22A1CDA900671B03 /* AdaptiveSectionsWindow.xib in Resources */,
-				573612CF22A1CDA900671B03 /* InsertionSortWindow.xib in Resources */,
-				573612E122A1CDA900671B03 /* TwoColumnWindow.xib in Resources */,
-				573612D822A1CDA900671B03 /* WiFiSettingsWindow.xib in Resources */,
-				573612D122A1CDA900671B03 /* OrthogonalScrollingWindow.xib in Resources */,
-				573612E022A1CDA900671B03 /* SectionHeadersFootersWindow.xib in Resources */,
-				573612D722A1CDA900671B03 /* TitleSupplementaryView.xib in Resources */,
-				053A00AC22837E6F00C5D56F /* Assets.xcassets in Resources */,
-				573612DC22A1CDA900671B03 /* ItemBadgeSupplementaryWindow.xib in Resources */,
-				573612D022A1CDA900671B03 /* NestedGroupsWindow.xib in Resources */,
-				573612D422A1CDA900671B03 /* DistinctSectionsWindow.xib in Resources */,
-				573612D522A1CDA900671B03 /* ListWindow.xib in Resources */,
-				573612DA22A1CDA900671B03 /* InsetItemsGridWindow.xib in Resources */,
-				573612CE22A1CDA900671B03 /* TextItem.xib in Resources */,
-				573612DF22A1CDA900671B03 /* ListItem.xib in Resources */,
-				573612D922A1CDA900671B03 /* WiFiNetworkItem.xib in Resources */,
-				573612DE22A1CDA900671B03 /* MountainsWindow.xib in Resources */,
-				573612D222A1CDA900671B03 /* GridWindow.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FDA8D135225F8531000127E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -584,36 +338,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		053A00A322837E6E00C5D56F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05C43D79228A7121002750F0 /* WiFiSettingsWindowController.swift in Sources */,
-				05C43D76228A6FB2002750F0 /* MountainsWindowController.swift in Sources */,
-				053A00D722837ED000C5D56F /* TextItem.swift in Sources */,
-				0586E2712297A0AC00594D93 /* InsertionSortArray.swift in Sources */,
-				053A00D322837ED000C5D56F /* ListWindowController.swift in Sources */,
-				05C43D6A228A6784002750F0 /* TwoColumnWindowController.swift in Sources */,
-				05C43D68228A655C002750F0 /* AdaptiveSectionsWindowController.swift in Sources */,
-				05C43D6D228A6949002750F0 /* OrthogonalScrollingWindowController.swift in Sources */,
-				05C43D6E228A6A32002750F0 /* ItemBadgeSupplementaryWindowController.swift in Sources */,
-				0586E2662297999700594D93 /* InsertionSortWindowController.swift in Sources */,
-				05C43D6B228A67AA002750F0 /* DistinctSectionsWindowController.swift in Sources */,
-				053A00E622837F4800C5D56F /* WIFIController.swift in Sources */,
-				05B367FF22A0D8E800D7A9E0 /* MountainsController.swift in Sources */,
-				053A00AA22837E6E00C5D56F /* AppDelegate.swift in Sources */,
-				053A00E022837EDE00C5D56F /* WiFiNetworkItem.swift in Sources */,
-				053A00D822837ED000C5D56F /* TitleSupplementaryView.swift in Sources */,
-				0586E26C22979E5400594D93 /* InsertionSortItem.swift in Sources */,
-				05C43D6F228A6D15002750F0 /* SectionHeadersFootersWindowController.swift in Sources */,
-				05C43D6C228A6866002750F0 /* NestedGroupsWindowController.swift in Sources */,
-				05C43D67228A64EC002750F0 /* GridWindowController.swift in Sources */,
-				05C43D69228A66EA002750F0 /* InsetItemsGridWindowController.swift in Sources */,
-				053A00D622837ED000C5D56F /* ListItem.swift in Sources */,
-				05B367FE22A0D8E800D7A9E0 /* MountainsRawData.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FDA8D133225F8531000127E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -660,166 +384,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		573612A622A1CDA800671B03 /* TextItem.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612A722A1CDA800671B03 /* Base */,
-			);
-			name = TextItem.xib;
-			sourceTree = "<group>";
-		};
-		573612A822A1CDA800671B03 /* InsertionSortWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612A922A1CDA800671B03 /* Base */,
-			);
-			name = InsertionSortWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612AA22A1CDA800671B03 /* NestedGroupsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612AB22A1CDA800671B03 /* Base */,
-			);
-			name = NestedGroupsWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612AC22A1CDA800671B03 /* OrthogonalScrollingWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612AD22A1CDA800671B03 /* Base */,
-			);
-			name = OrthogonalScrollingWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612AE22A1CDA800671B03 /* GridWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612AF22A1CDA800671B03 /* Base */,
-			);
-			name = GridWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612B022A1CDA800671B03 /* BadgeSupplementaryView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612B122A1CDA800671B03 /* Base */,
-			);
-			name = BadgeSupplementaryView.xib;
-			sourceTree = "<group>";
-		};
-		573612B222A1CDA800671B03 /* DistinctSectionsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612B322A1CDA800671B03 /* Base */,
-			);
-			name = DistinctSectionsWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612B422A1CDA800671B03 /* ListWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612B522A1CDA800671B03 /* Base */,
-			);
-			name = ListWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612B622A1CDA800671B03 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612B722A1CDA800671B03 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		573612B822A1CDA800671B03 /* TitleSupplementaryView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612B922A1CDA800671B03 /* Base */,
-			);
-			name = TitleSupplementaryView.xib;
-			sourceTree = "<group>";
-		};
-		573612BA22A1CDA800671B03 /* WiFiSettingsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612BB22A1CDA800671B03 /* Base */,
-			);
-			name = WiFiSettingsWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612BC22A1CDA800671B03 /* WiFiNetworkItem.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612BD22A1CDA800671B03 /* Base */,
-			);
-			name = WiFiNetworkItem.xib;
-			sourceTree = "<group>";
-		};
-		573612BE22A1CDA800671B03 /* InsetItemsGridWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612BF22A1CDA800671B03 /* Base */,
-			);
-			name = InsetItemsGridWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612C022A1CDA800671B03 /* InsertionSortItem.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612C122A1CDA800671B03 /* Base */,
-			);
-			name = InsertionSortItem.xib;
-			sourceTree = "<group>";
-		};
-		573612C222A1CDA800671B03 /* ItemBadgeSupplementaryWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612C322A1CDA800671B03 /* Base */,
-			);
-			name = ItemBadgeSupplementaryWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612C422A1CDA800671B03 /* AdaptiveSectionsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612C522A1CDA800671B03 /* Base */,
-			);
-			name = AdaptiveSectionsWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612C622A1CDA800671B03 /* MountainsWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612C722A1CDA800671B03 /* Base */,
-			);
-			name = MountainsWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612C822A1CDA800671B03 /* ListItem.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612C922A1CDA800671B03 /* Base */,
-			);
-			name = ListItem.xib;
-			sourceTree = "<group>";
-		};
-		573612CA22A1CDA800671B03 /* SectionHeadersFootersWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612CB22A1CDA800671B03 /* Base */,
-			);
-			name = SectionHeadersFootersWindow.xib;
-			sourceTree = "<group>";
-		};
-		573612CC22A1CDA900671B03 /* TwoColumnWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				573612CD22A1CDA900671B03 /* Base */,
-			);
-			name = TwoColumnWindow.xib;
-			sourceTree = "<group>";
-		};
 		FDA8D13E225F8531000127E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -839,58 +403,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		053A00B222837E6F00C5D56F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Conference-Mac-Diffable/Conference_Mac_Diffable.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Conference-Mac-Diffable/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Conference-Mac-Diffable${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		053A00B322837E6F00C5D56F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Conference-Mac-Diffable/Conference_Mac_Diffable.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = "Conference-Mac-Diffable/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Conference-Mac-Diffable${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		FDA8D15D225F8533000127E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */;
@@ -1016,8 +528,10 @@
 			baseConfigurationReference = E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Conference-Diffable/Conference-Diffable.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = UKS358BH88;
 				INFOPLIST_FILE = "Conference-Diffable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1028,6 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1039,8 +554,10 @@
 			baseConfigurationReference = E8E6ED6DC6EF1E1B8C6DCEEA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Conference-Diffable/Conference-Diffable.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = UKS358BH88;
 				INFOPLIST_FILE = "Conference-Diffable/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1051,6 +568,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1060,15 +578,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		053A00B422837E6F00C5D56F /* Build configuration list for PBXNativeTarget "Conference-Mac-Diffable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				053A00B222837E6F00C5D56F /* Debug */,
-				053A00B322837E6F00C5D56F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		FDA8D132225F8531000127E1 /* Build configuration list for PBXProject "Conference-Diffable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
